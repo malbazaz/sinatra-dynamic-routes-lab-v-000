@@ -46,16 +46,16 @@ class App < Sinatra::Base
     @number1_i = @number1.to_i
     @number2_i = @number2.to_i
     binding.pry
-    if @operations.to_s == "add"
+    if @operation.to_s == "add"
       @added_number = @number1_i + @number2_i
       "#{@added_number}"
-    elsif @operations.to_s == "subtract"
+    elsif @operation.to_s == "subtract"
       @added_number = @number1_i - @number2_i
       "#{@added_number}"
-    elsif @operations.to_s == "multiply"
+    elsif @operation.to_s == "multiply"
       @added_number = @number1_i * @number2._i
       "#{@added_number}"
-      @operations.to_s == "divide"
+      @operation.to_s == "divide"
         @added_number = @number1_i / @number2_i
         "#{@added_number}"
       end
