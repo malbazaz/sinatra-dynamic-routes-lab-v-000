@@ -19,7 +19,7 @@ class App < Sinatra::Base
     @phrase = params[:phrase]
     i= 0
     @number_int = @number.to_i
-    #binding.pry
+    binding.pry
     while i < @number_int
       "#{@phrase}"
       i+=1
