@@ -26,7 +26,7 @@ class App < Sinatra::Base
       i+=1
     end
     @array.each do |element|
-      element \n 
+      element \n
     end
   end
 
