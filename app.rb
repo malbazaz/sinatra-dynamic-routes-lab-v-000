@@ -53,7 +53,7 @@ class App < Sinatra::Base
       @added_number = @number1_i - @number2_i
       "#{@added_number}"
     elsif @operation.to_s == "multiply"
-      @added_number = @number1_i * @number2._i
+      @added_number = @number1_i * @number2_i
       "#{@added_number}"
       @operation.to_s == "divide"
         @added_number = @number1_i / @number2_i
