@@ -20,7 +20,7 @@ class App < Sinatra::Base
     i= 0
     @number_int = @number.to_i
     binding.pry
-    for i < @number_int
+    while i < @number_int
       "#{@phrase}"
       i+=1
     end
