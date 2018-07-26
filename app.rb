@@ -22,11 +22,11 @@ class App < Sinatra::Base
     #binding.pry
     @array = []
     while i < @number_int
-      @array << "#{@phrase}"
+      @array << " #{@phrase} "
       i+=1
     end
     @array.each do |element|
-      element \n
+      element
     end
   end
 
