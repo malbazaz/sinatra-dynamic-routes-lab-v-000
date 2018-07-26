@@ -17,11 +17,12 @@ class App < Sinatra::Base
   get "/say/:number/:phrase" do
     @number = params[:number]
     @phrase = params[:phrase]
-    i = 0
+    i= 0
     @number_int = @number.to_i
+    binding.pry
     for i < @number_int
       "#{@phrase}"
-      i+=1 
+      i+=1
     end
   end
 
